@@ -1,5 +1,12 @@
-[format]
-indent = 4
-line_width = 120
-quote_style = "Auto"
-spaces_within_parens = false
+indent_width = 4
+indent_type = "Spaces"
+line_endings = "Unix"
+column_width = 120
+quote_style = "AutoPreferDouble"
+space_after_function_names = "Never"
+syntax = "LuaJIT"
+call_parentheses = "Always"
+collapse_simple_statement = "Never"
+
+[sort_requires]
+enabled = false
